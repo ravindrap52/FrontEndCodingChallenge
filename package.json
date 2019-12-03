@@ -6,10 +6,15 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js  --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holidaypirates/frontend-assessment-test"
+  },
   "author": "HolidayPirates",
   "license": "MIT",
-  
+  "bugs": {
+    "url": "https://github.com/holidaypirates/frontend-assessment-test/issues"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
