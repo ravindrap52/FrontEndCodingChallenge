@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HolidayPirates Frontend test</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header--container">
+        <div class="logo">
+          <img
+            src="src/assets/images/logo-en-white.svg"
+            alt="HolidayPirates"
+            class="logo"
+          />
+        </div>
+        <div class="avatar--image">
+          <img src="src/assets/images/user.jpg" class="avatar--image" />
+        </div>
+      </header>
+      <main class="main--container">
+        <form class="search--container">
+          <div>
+            <span class="heading-1 v-align-middle">Rating </span>
+            <span class="star cursor" id="1">&#9733;</span>
+            <span class="star cursor" id="2">&#9733;</span>
+            <span class="star cursor" id="3">&#9733;</span>
+            <span class="star cursor" id="4">&#9733;</span>
+            <span class="star cursor" id="5">&#9733;</span>
+          </div>
+          <div>
+            <span class="heading-1 v-align-middle">Price </span>
+            <span
+              ><input
+                type="range"
+                min="200"
+                max="900"
+                value="50"
+                class="slider v-align-middle"
+                id="priceRange"
+            /></span>
+          </div>
+          <div>
+            <button type="button" class="button" id="filterHotels">
+              Filter
+            </button>
+          </div>
+        </form>
+
+        <div class="card--container" id="card--container"></div>
+      </main>
+      <footer class="footer--container heading-1">
+        <small>&copy; Copyright 2019, Holiday Pirates Group </small>
+      </footer>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body" id="review--container"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.container {
+  @include display($display-grid);
+  grid-template-rows: 4rem 1fr auto;
+  //height: $viewport-height;
+  // background: $bg-grey;
+  min-height: 100vh;
+}
+

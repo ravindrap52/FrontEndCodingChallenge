@@ -1,0 +1,10 @@
+// directories
+node_modules
+build
+
+// files
+.DS_Store
+/.idea/deployment.xml
+/.idea/**
+/*.iml
+/novopay-platform-voyager-webapp.iml

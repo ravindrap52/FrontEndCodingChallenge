@@ -1,0 +1,70 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 2rem;
+}
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: $header-bg;
+  height: 3.5rem;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 1rem;
+  height: 320px;
+  overflow: scroll;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// review styles
+
+.reviewBox {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(138, 107, 118, 0.08);
+  background-color: #ffffff;
+  border: solid 2px #ededed;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.reviewRow {
+  display: flex;
+}
+.reviewBoxLeft {
+  flex: 1;
+}

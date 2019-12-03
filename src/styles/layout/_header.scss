@@ -1,0 +1,21 @@
+.header--container {
+  background: $header-bg;
+  padding: 0.5rem;
+  //  TODO write function to generate flex properties
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: calc(100% - 1rem);
+  z-index: 10;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.avatar--image {
+  max-width: 100%;
+  border-radius: 50%;
+  height: 3rem;
+}
+.logo {
+  height: 3rem;
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  height: $viewport-height;
+  width: $viewport-width;
+}
+@mixin display($display) {
+  display: $display;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+  padding: $top $right $bottom $left;
+}
+.pb-1 {
+  padding: 0 0 0.5rem 0;
+}
+.d-inline {
+  @include display(inline);
+}
+.cursor {
+  cursor: pointer;
+}
+.v-align-middle {
+  vertical-align: middle;
+}
+pr-2 {
+  padding-right: 0.2rem;
+}
